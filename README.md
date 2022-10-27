@@ -6,7 +6,7 @@ This is actually made only for making my life easier as I often fresh install Ub
 If you have other OS, or Linux distribution, you need to modify it first, or if you're a kind person, you also may update and add for your distribution.
 ### Ubuntu Linux
 The first version I made is for Ubuntu Linux. It contains Snap installation, so proceed with caution if you use it on older Ubuntu version that don't have Snap (you could also add line `sudo apt-get install snapd` if you want to).
-The script features installation of:
+The script features installation of, but not limited to:
 #### Core system apps/helpful apps
 - GDEBI (for installing deb files easier/simpler than using Package Manager)
 - GParted (more advanced disk partitioning app)
@@ -23,4 +23,7 @@ The script features installation of:
 - VS Code (it's good)
 - Add your own coding apps
 
-I hope this helps.
+If you want to skip something, make sure to add a comment using `#` before apt install or snap install. A GUI is being considerated for future release. Windows OS also being developed as not all of the basic apps available in Microsoft Store (I preventing the need to download installers and running the setup manually).
+
+## Want to Contribute?
+For other Linux distribution, feel free to make the sh and give me a hit. If you want to help for Windows OS or even MacOS, hit me in the email first `contact@ricardogunawan.com`. Thank you!
